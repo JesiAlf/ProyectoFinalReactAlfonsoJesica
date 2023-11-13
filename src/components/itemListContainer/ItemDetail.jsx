@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import CounterContainer from "../common/counter/CounterContainer"
-import "../itemListContainer/ItemDetail.css"
+
 import { Box, Grid, Paper, Typography } from "@mui/material";
 
 export const ItemDetail = ({productSelected, onAdd,initial,showCounter}) => {
