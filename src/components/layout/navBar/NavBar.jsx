@@ -1,12 +1,12 @@
 
 import CartWidget from "../../common/cartWidget/CartWidget";
-import "./Navbar.css";
+import "../navBar/NavBar.css";
 import {Link, Outlet} from "react-router-dom";
 
 export const NavBar = () => {
   return (
     <>
-    <div className={"ContainerNavBar"}>
+    <div className={"containerNavBar"}>
         <img
           src="https://res.cloudinary.com/dphzc4d5r/image/upload/v1695681451/logotransp_pprvix.png"
           alt="logo"
